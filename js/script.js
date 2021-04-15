@@ -31,7 +31,7 @@ window.onload = digitar
 
 // Text que escreve a apaga aos poucos
 var div = document.getElementById('log');
-var textos = ['Programador JavaScript.' ,'UI & UX Design.','Desenvolvedor Front end.', 'Programador PHP.', 'Trainee  React Js.', 'Progrmador Web.', 'Trainee Node Js.', 'Web Design.'];
+var textos = ['Programador JavaScript.' ,'UI & UX Design.','Desenvolvedor Front end.', 'Programador PHP.', 'Trainee  React Js.', 'Programador Web.', 'Trainee Node Js.', 'Web Design.'];
 
 function escrever(str, done) {
     var char = str.split('').reverse();
