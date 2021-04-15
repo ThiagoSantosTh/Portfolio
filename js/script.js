@@ -11,7 +11,7 @@ function toggleMenu(){
     menu.classList.toggle('active');
 }
 
-//Text que somente escreve
+//Text que somente escreve 
 var texto = "I'm Front End Developer Jr."
 var result
 
