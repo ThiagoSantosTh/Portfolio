@@ -173,3 +173,9 @@ function openModal() {
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+
+/**Footer */
+var d = new Date();
+var n = d.getFullYear();
+document.getElementById("hora").innerHTML = n;
